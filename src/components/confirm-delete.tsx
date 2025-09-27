@@ -27,7 +27,7 @@ function ConfirmToast({ t, message, onConfirm }: ConfirmToastProps) {
     } catch (err) {
       toast.dismiss(t.id);
       toast.error("Failed to delete");
-    }
+    } 
   };
 
   return (
