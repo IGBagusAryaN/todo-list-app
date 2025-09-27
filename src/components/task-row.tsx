@@ -10,7 +10,7 @@ interface TaskRowProps {
   editedTask: Partial<Task>;
   openDropdown: string | null;
   handleEditClick: (task: Task) => void;
-  handleCancelClick: () => void;
+  handleCancelClick: () => void; 
   handleSaveClick: (taskId: string) => void;
   handleChange: (field: keyof Task, value: string) => void;
   handleToggleDropdown: (taskId: string) => void;
