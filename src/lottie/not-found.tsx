@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const NotFoundAssets = () => {
   const [animationData, setAnimationData] = useState<any>(null);
-
+ 
   useEffect(() => {
     fetch("/assets/not-found.json")
       .then((res) => res.json())
