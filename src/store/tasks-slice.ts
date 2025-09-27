@@ -83,7 +83,7 @@ const tasksSlice = createSlice({
         state.loading = true;
         state.error = null;
       })
-      .addCase(fetchTasks.fulfilled, (state, action) => {
+      .addCase(fetchTasks.fulfilled, (state, action) => { 
         state.loading = false;
         const apiTasks = action.payload;
         const localIds = new Set(state.list.map((t) => t.id));
