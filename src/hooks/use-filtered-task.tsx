@@ -6,7 +6,7 @@ export const useFilteredTasks = (
   searchTerm: string,
   currentPage: number,
   tasksPerPage: number
-) => {
+) => { 
   const reversedList = useMemo(() => [...list].reverse(), [list]);
 
   const filteredList = useMemo(() => {
