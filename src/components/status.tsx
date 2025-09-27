@@ -9,7 +9,7 @@ const statusOptions: { value: TaskStatus; label: string }[] = [
 
 export default function StatusDropdown({
   task,
-  open,
+  open, 
   onToggle,
   handleStatusChange,
 }: {
