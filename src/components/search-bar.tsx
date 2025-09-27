@@ -5,7 +5,7 @@ import { setPage } from "../store/tasks-slice";
 interface SearchBarProps {
   pendingSearchTerm: string;
   setPendingSearchTerm: (value: string) => void;
-  setSearchTerm: (value: string) => void;
+  setSearchTerm: (value: string) => void; 
   dispatch: AppDispatch;
 }
 
