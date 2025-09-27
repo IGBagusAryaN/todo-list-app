@@ -15,7 +15,7 @@ export const useFilteredTasks = (
       [task.title, task.owner, task.assignee, task.status]
         .some((field) => (field || "").toLowerCase().includes(keyword))
     );
-  }, [reversedList, searchTerm]);
+  }, [reversedList, searchTerm]);  
 
   const startIndex = (currentPage - 1) * tasksPerPage;
   const paginatedTasks = useMemo(
