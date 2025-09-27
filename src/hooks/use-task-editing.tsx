@@ -9,7 +9,7 @@ export const useTaskEditing = (onUpdate: (task: Task) => void) => {
   const handleEditClick = (task: Task) => {
     setEditingTaskId(task.id);
     setEditedTask(task);
-    setOriginalTask(task);
+    setOriginalTask(task); 
   };
 
   const handleCancelClick = () => {
