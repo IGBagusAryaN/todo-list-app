@@ -5,7 +5,7 @@ const TaskTableHeader = () => {
         <th className="border border-gray-300 p-2">Title</th>
         <th className="border border-gray-300 p-2">Owner</th>
         <th className="border border-gray-300 p-2">Assignee</th>
-        <th className="border border-gray-300 p-2">Status</th>
+        <th className="border border-gray-300 p-2">Status</th> 
         <th className="border border-gray-300 p-2">Action</th>
       </tr>
     </thead>
