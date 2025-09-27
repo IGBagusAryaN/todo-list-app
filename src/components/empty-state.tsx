@@ -11,7 +11,7 @@ const EmptyState: React.FC<EmptyStateProps> = ({ message }) => {
         <div className="flex flex-col items-center justify-center">
           <NotFoundAssets />
           <p>{message}</p>
-        </div>
+        </div> 
       </td>
     </tr>
   );
