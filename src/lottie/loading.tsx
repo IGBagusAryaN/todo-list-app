@@ -7,7 +7,7 @@ const LoadingAssets = () => {
   useEffect(() => {
     fetch("/assets/loading.json")
       .then((res) => res.json())
-      .then((data) => setAnimationData(data))
+      .then((data) => setAnimationData(data)) 
       .catch((err) => console.error("Gagal load animasi:", err));
   }, []);
   return (
